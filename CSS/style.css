@@ -1,0 +1,10 @@
+.players-container{
+display: grid;
+margin: 50px auto;
+grid-template-columns: repeat(3,1fr);
+}
+
+.player{
+    border: 1px solid red;
+    padding: 10px;
+}
